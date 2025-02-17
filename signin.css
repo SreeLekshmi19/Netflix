@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.468) 50%, rgba(0, 0, 0, 0.468) 50%), 
+        url('IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_small.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+img {
+    width: 15vw;
+    margin-left: 9%;
+}
+
+.sign-in{
+    margin-top: 55px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.612);
+    width: 30%;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+input{
+    align-self: flex-start;
+    justify-self: center;
+    width: 90%;
+    color: white;
+    height: 15%;
+    border: 1px solid rgba(211, 211, 211, 0.468);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.612);
+    margin-top: 10px;
+}
+
+.sign{
+    margin-top: 15px;
+    width: 92%;
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: medium;
+    border-radius:5px;
+    height: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.u-sign{
+    width: 92%;
+    height: 10%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.208);
+}
+
+#check{
+    width: 20%;
+    height: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+}
