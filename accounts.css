@@ -1,0 +1,82 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+body{
+    height: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.accounts{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+img{
+    width: 140px;
+    height: 140px;
+}
+.box{
+    width:140px;
+    height:140px;
+    margin:8px;
+    border:2px solid black;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background-size: contain;
+}
+.box5{
+    border:2px solid rgb(132, 128, 128);
+}
+i{
+    color:rgb(132, 128, 128);
+    font-size: 70px;
+    border:2px solid black;
+}
+i:hover{
+    color: white;
+}
+.box:hover{
+    border:2px solid white;
+}
+p{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.who{
+    color: white;
+    font-weight: 35px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+button{
+    color:rgb(132, 128, 128);
+    background-color: black;
+    border:1px solid rgb(132, 128, 128);
+    padding:15px 40px;
+    font-size: medium;
+    cursor: pointer;
+}
+button:hover{
+    color:white;
+    border:1px solid white;
+}
